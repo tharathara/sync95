@@ -1303,7 +1303,7 @@
 
           <div class="col-lg-6 mt-4 mt-lg-0">
 
-            <form name="contact" action="post" role="form" class="php-email-form" data-aos="fade-up" data-netlify="true">
+            <form name="contact" action="post" class="php-email-form w-100" data-aos="fade-up" data-netlify="true">
 
               <div class="row">
 
@@ -1330,6 +1330,16 @@
               <div class="form-group mt-3">
 
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+
+              </div>
+
+              <div class="my-3">
+
+                <div class="loading">Loading</div>
+
+                <div class="error-message"></div>
+
+                <div class="sent-message">Your message has been sent. Thank you!</div>
 
               </div>
 
